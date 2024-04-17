@@ -1,11 +1,12 @@
 import NavBar from './components/NavBar'
 import './App.css'
-import Hero from './Hero'
-import Destacados from './assets/Destacados'
-import PropYstates from './PropYstates'
-import CompFn from './CompFn'
+import Hero from './components/Hero'
+import Destacados from './components/Destacados'
+import PropYstates from './components/PropYstates'
+import CompFn from './components/CompFn'
 import Carousel from './components/Carousel'
 import Footer from './components/Footer'
+curso-react/src/App.jsx -text
 
 
 
