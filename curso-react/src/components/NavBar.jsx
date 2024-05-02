@@ -8,9 +8,9 @@ const NavBar = () => {
             <div className="row bg-black p-3">
                 <div className="col"></div>
                 <div className="col-md text-center">
-                    <Link to="/">
-                        <img src={logo} alt="OPEN" width={100} />
-                        <p style={{ color: 'black' }}>DetoxiK</p>
+                    <Link to="/" style={{ textDecoration: 'none' }}>
+                        <img src={logo} alt="OPEN" width={100} style={{ filter: 'invert(1)', color: 'white' }} />
+                        <p style={{ color: 'white' }}>DetoxiK</p>
                     </Link>
                 </div>
                 <div className="col d-flex align-items-center justify-content-end">
@@ -24,13 +24,13 @@ const NavBar = () => {
                             <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/ropa">Ropa</NavLink>
+                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/romanticpanties">ROMANTIC PANTIES</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/mate">Mate</NavLink>
+                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/nigthcollection">NIGHT COLLECTION</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/cafeyte">Café y Té</NavLink>
+                            <NavLink className="nav-link text-secondary text-uppercase textoNavbar" to="/category/bra&pantysets">BRA & PANTY SETS</NavLink>
                         </li>
                     </ul>
                 </div>

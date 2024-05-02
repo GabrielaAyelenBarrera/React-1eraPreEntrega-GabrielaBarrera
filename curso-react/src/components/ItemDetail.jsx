@@ -11,8 +11,8 @@ const ItemDetail = ({item}) => {
                     <img src={item.imagen} className="img-fluid" alt={item.nombre} />
                 </div>
                 
-                <div className="col-md-4">
-                    <h1 className="fs-5 text-uppercase">{item.nombre}</h1>
+                <div className="col-md-4" >
+                    <h1 className="fs-5 text-uppercase" >{item.nombre}</h1>
                     <p className="fs-2 fw-bold">${item.precio}</p>
                     <p>{item.descripcion}</p>
 
