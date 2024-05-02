@@ -23,7 +23,7 @@ const ItemListContainer = () => {
     return (
         <div className="container">
             <div className="row my-5">
-                    <ItemList/>
+                    <ItemList items={items} />
     
                 </div>
             </div>
