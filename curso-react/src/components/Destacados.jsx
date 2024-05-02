@@ -1,4 +1,4 @@
-const Destacados = () => {
+/*const Destacados = () => {
     return (
       <div className="container">
         <div className="row">
@@ -50,4 +50,4 @@ const Destacados = () => {
     );
   }
   
-  export default Destacados;
+  export default Destacados; */

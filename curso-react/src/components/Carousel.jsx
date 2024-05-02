@@ -1,4 +1,4 @@
-const Carousel = () => {
+/*const Carousel = () => {
     return (
         <div className="container-fluid bg-white">
             <div className="row my-4">
@@ -42,4 +42,4 @@ const Carousel = () => {
     )
 }
 
-export default Carousel;
+export default Carousel; */

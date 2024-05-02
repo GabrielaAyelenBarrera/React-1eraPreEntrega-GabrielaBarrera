@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 // Componente reutilizable para mostrar los detalles de un producto
 const DetalleProducto = ({ producto }) => {
@@ -47,7 +47,7 @@ const CompFn = () => {
       <div className="row my-0">
         <div className="col-md-6 offset-md-3">
           <div className="card-deck">
-            {/* Mapeo de los productos para mostrar sus detalles */}
+            {/* Mapeo de los productos para mostrar sus detalles }
             {productos.map(producto => (<DetalleProducto key={producto.id} producto={producto} />))}
           </div>
         </div>
@@ -56,5 +56,5 @@ const CompFn = () => {
   );
 };
 
-export default CompFn;
+export default CompFn; */
 

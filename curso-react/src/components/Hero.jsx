@@ -1,4 +1,4 @@
-
+/*
 const Hero = () => {
     let imagen = "src/assets/images/conjunto-rosa.jpg"
 
@@ -23,4 +23,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Hero; */
