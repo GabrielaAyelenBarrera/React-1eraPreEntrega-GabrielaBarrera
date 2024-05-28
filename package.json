@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "react-router-dom": "^6.23.0"
+    "firebase": "^10.12.1"
   }
 }

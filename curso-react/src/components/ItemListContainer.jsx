@@ -9,6 +9,8 @@ import ItemList from "./ItemList";
 const ItemListContainer = () => {
     const [items, setItems] = useState ([]);
     const {id} = useParams();
+
+
     useEffect (() => {
         const promesa = new Promise (resolve => {
             setTimeout (() => {
@@ -18,7 +20,7 @@ const ItemListContainer = () => {
         promesa.then(respuesta => {
             setItems(respuesta);
         })
-    }, [id])
+    }, [id]) 
 
     return (
         <div className="container">

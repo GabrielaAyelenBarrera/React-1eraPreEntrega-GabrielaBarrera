@@ -1,11 +1,13 @@
-/*const Carousel = () => {
+
+/* const Carousel = () => {
     return (
         <div className="container-fluid bg-white">
             <div className="row my-4">
                 <div className="col-md-6 offset-md-3">
                 <div className="card">
                         <div className="card-body">
-                        <h5 className="card-title">Recorre el carousel del conjunto Kenya</h5>
+                           
+                        <h5 className="card-title">Recorre el carousel de imagenes</h5>
                     <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active" data-bs-interval="1000">
