@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const ItemCount= () => {
+const ItemCount= ({ onAdd }) => {
     const [contador, setContador] = useState(0);
     const [stock, setStock] = useState(10);
     const [mostrarAlerta, setMostrarAlerta] = useState(false);
@@ -34,19 +34,29 @@ const ItemCount= () => {
         }
     }, [contador, stock]); // Agrega contador y stock como dependencias
     
-
+    const handleAdd = () => {
+        onAdd(contador);
+    };
     // Función para manejar el cierre de la alerta
     const handleCloseAlert = () => {
         setMostrarAlerta(false);
     };
 
     return (
-        <div>
-            <p>Cantidad de productos: {contador}</p>
-            <p>Stock: {stock}</p>
-            <div className="btn-group" role="group">
-                <button className="btn bg-black text-white" onClick={incrementar}>Añadir al carrito</button>
-                <button className="btn bg-danger text-white" onClick={decrementar}>Eliminar del carrito</button>
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <div className="btn-group" role="group">
+                        <button type="button" className="btn bg-black text-white rounded-0" onClick={decrementar}> - </button>
+                        <button type="button" className="btn bg-black text-white rounded-0">{contador}</button>
+                        <button type="button" className="btn bg-black text-white rounded-0" onClick={incrementar}> + </button>
+                    </div>
+                </div>
+            </div>
+            <div className="row my-1">
+                <div className="col">
+                    <button type="button" className="btn bg-black text-white text-uppercase rounded-0" onClick={handleAdd}>Agregar Al Carrito</button>
+                </div>
             </div>
             {mostrarAlerta && (
                 <div className="row my-2">
